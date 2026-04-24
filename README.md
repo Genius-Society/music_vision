@@ -1,10 +1,6 @@
----
-title: Music Vision
-emoji: 🎵
-colorFrom: indigo
-colorTo: yellow
-sdk: static
-pinned: false
-license: apache-2.0
-short_description: Audio visualization circle effect tool
----
+# Music Vision
+[![auto-sync](https://github.com/Genius-Society/music_vision/actions/workflows/auto-sync.yml/badge.svg?branch=en)](https://github.com/Genius-Society/music_vision/actions/workflows/auto-sync.yml?query=branch%3Aen)
+[![license](https://img.shields.io/github/license/Genius-Society/music_vision.svg)](./LICENSE)
+[![hf](https://img.shields.io/badge/huggingface-music__vision-ffd21e.svg)](https://huggingface.co/spaces/Genius-Society/music_vision)
+
+The Music Vision Tool offers a unique visual experience, allowing users to display the toolbar by hovering their mouse over the top of the page, thereby uploading audio files for visualization and custom background images. This tool supports multiple audio formats, including MP3, WAV, M4A, and FLAC, while background images are supported in formats such as JPG, PNG, GIF, and BMP. Its core feature is the ability to display ring effects that change as the audio plays. These dynamic rings generate visual effects based on the audio’s frequency and rhythm, offering users a novel audio-visual experience. With this tool, users can easily create dynamic ring patterns synchronized with the music’s rhythm, providing a unique visual experience whether for personal entertainment, artistic creation, or professional presentations.
