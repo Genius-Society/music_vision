@@ -1,5 +1,5 @@
 # 音频可视化圆环特效工具
-[![auto-sync](https://github.com/Genius-Society/music_vision/actions/workflows/auto-sync.yml/badge.svg)](https://github.com/Genius-Society/music_vision/actions/workflows/auto-sync.yml)
+[![auto-sync](https://github.com/Genius-Society/music_vision/actions/workflows/auto-sync.yml/badge.svg)](https://github.com/Genius-Society/music_vision/actions/workflows/auto-sync.yml?query=branch%3Amain)
 [![license](https://img.shields.io/github/license/Genius-Society/music_vision.svg)](./LICENSE)
 [![ms](https://img.shields.io/badge/modelscope-music__vision-624aff.svg)](https://www.modelscope.cn/studios/Genius-Society/music_vision)
 
