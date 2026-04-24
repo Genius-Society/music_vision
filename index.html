@@ -1,0 +1,43 @@
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>音频可视化圆环特效</title>
+    <link rel="stylesheet" href="./css/musicvision.css" type="text/css" />
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script type="text/javascript" src="./js/player.js"></script>
+</head>
+
+<body>
+    <div id="upl" class="first">
+        <table border="0" width="100%">
+            <tr>
+                <td>
+                    <button id="fullscreen">全屏</button>
+                </td>
+                <td>
+                    <p id="tip">上传待可视化的音频👉</p>
+                </td>
+                <td>
+                    <input type="file" id="musicFile" accept=".mp3,.wav,.m4a,.flac">
+                </td>
+                <td>
+                    <input type="button" id="startStop" name="startStop" value="暂停">
+                </td>
+                <td>
+                    <input type="file" id="bgFile" accept=".png,.jpg,.gif,.bmp">
+                </td>
+                <td>
+                    <p>👈上传背景图</p>
+                </td>
+                <td>
+                    <button id="home">还原为初始背景</button>
+                </td>
+            </tr>
+        </table>
+    </div>
+    <div class="bg"></div>
+    <canvas id="wrap"></canvas>
+</body>
+
+</html>
