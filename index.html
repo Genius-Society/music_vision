@@ -1,0 +1,43 @@
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Audio Visual Circle Effect</title>
+    <link rel="stylesheet" href="./css/musicvision.css" type="text/css" />
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script type="text/javascript" src="./js/player.js"></script>
+</head>
+
+<body>
+    <div id="upl" class="first">
+        <table border="0" width="100%">
+            <tr>
+                <td>
+                    <button id="fullscreen">Fullscreen</button>
+                </td>
+                <td>
+                    <p id="tip">Upload audio to be visualized👉</p>
+                </td>
+                <td>
+                    <input type="file" id="musicFile" accept=".mp3,.wav,.m4a,.flac">
+                </td>
+                <td>
+                    <input type="button" id="startStop" name="startStop" value="Pause">
+                </td>
+                <td>
+                    <input type="file" id="bgFile" accept=".png,.jpg,.gif,.bmp">
+                </td>
+                <td>
+                    <p>👈Upload background image</p>
+                </td>
+                <td>
+                    <button id="home">Restore to initial background</button>
+                </td>
+            </tr>
+        </table>
+    </div>
+    <div class="bg"></div>
+    <canvas id="wrap"></canvas>
+</body>
+
+</html>
