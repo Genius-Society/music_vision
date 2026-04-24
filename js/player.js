@@ -15,7 +15,7 @@ function clearInputFiles(inputId) {
 
 // 还原背景图
 function recover_bg() {
-    $(".bg").css("background-image", "url(./src/bg.jpg)");
+    $(".bg").css("background-image", "url(https://www.modelscope.cn/studio/Genius-Society/music_vision/resolve/master/src/bg.jpg)");
     clearInputFiles("bgFile");
 }
 

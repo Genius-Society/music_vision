@@ -70,7 +70,7 @@ p,
 }
 
 .bg {
-    background-image: url('../src/bg.jpg');
+    background-image: url('https://www.modelscope.cn/studio/Genius-Society/music_vision/resolve/master/src/bg.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
