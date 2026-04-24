@@ -6,7 +6,7 @@ from modelscope import HubApi
 
 def restart_studio(
     token: str,
-    repo="Genius-Society/MusicVision",
+    repo="Genius-Society/music_vision",
     endpoint="https://www.modelscope.cn",
     hold=5,
 ):

@@ -26,7 +26,7 @@ jobs:
           NAME: ${{ secrets.GIT_NAME }}
           EMAIL: ${{ secrets.GIT_EMAIL }}
         run: |
-          git clone https://oauth2:$TOKEN@www.modelscope.cn/studios/Genius-Society/MusicVision.git ../ms_repo
+          git clone https://oauth2:$TOKEN@www.modelscope.cn/studios/Genius-Society/music_vision.git ../ms_repo
           mv -f ./.github/restart.py ../
           rm -rf ./*.py ./*.txt ./LICENSE ./README.md ./.github ./.git ./.gitignore ./.gitattributes
           cp -rf ../ms_repo/.git ./
