@@ -24,8 +24,8 @@ jobs:
           NAME: ${{ secrets.GIT_NAME }}
           EMAIL: ${{ secrets.GIT_EMAIL }}
         run: |
-          git clone https://oauth2:$TOKEN@www.modelscope.cn/studios/Genius-Society/music_vision.git ../ms_repo
           mv -f ./.github/restart.py ../
+          git clone https://oauth2:$TOKEN@www.modelscope.cn/studios/Genius-Society/music_vision.git ../ms_repo
           rm -rf ./.git* ./*.py ./*.txt ./LICENSE ./README.md
           cp -rf ../ms_repo/.git ./
           if [ -n "$(git status --porcelain)" ]; then
